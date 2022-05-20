@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="heddingDiv">
+        <h1>Student Form</h1>
+      </div>
+      <div id="nameDiv" class="input">
+        Roll No: <input type="number" id="rollno" />
+        <span id="rollerr"></span>
+      </div>
+      <div class="input">Student Name: <input type="text" id="name" /> <span id="nameerr"></span></div>
+      <div class="input" id="branchDiv">Branch: 
+        <select name="branch" id="branch">
+        <option value="">Select</option>
+        <option value="Computer Science Engineering">Computer Science Engineering</option>
+        <option value="Electronics & Communications Eng">Electronics & Communications Eng</option>
+        <option value="Information Technology">Information Technology</option>
+        <option value="Mechanical Engineering">Mechanical Engineering</option>
+        <option value="Civil Engineering">Civil Engineering</option>
+        <option value="Elecrical & Electronics Engineering">Elecrical & Electronics Engineering</option>
+        </select> 
+        <span id="brancherr"></span>
+      </div>
+
+      <div class="input" >Year: 
+        <select name="year" id="year">
+        <option value="">Select</option>
+        <option value="1st Year">1st Year</option>
+        <option value="2nd Year">2nd Year</option>
+        <option value="3rd Year">3rd Year</option>
+        <option value="4th Year">4th Year</option>
+        </select>     
+        <span id="yearerr"></span>
+      </div>
+
+      <button id="submit">Submit</button>
+
+      <table id="display">
+        <tr>
+          <th>Roll No</th>
+          <th>Name</th>
+          <th>Branch</th>
+          <th>Year</th>
+        </tr>
+      </table>
+
+    <script src="script.js"></script>
+  </body>
+</html>

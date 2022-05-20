@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: aqua;
+
+  background: radial-gradient(
+    rgba(179, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5),
+    rgba(0, 0, 0, 0.3)
+  );
+
+  text-align: center;
+}
+#heddingDiv {
+  margin-top: 40px;
+}
+h1 {
+  font-family: cursive;
+  font-size: 35px;
+  color: chocolate;
+  text-decoration: underline;
+}
+#nameDiv {
+  margin-top: 30px;
+}
+.input {
+  margin-top: 15px;
+  font-family: cursive;
+  font-size: 28px;
+  color: green;
+  font-weight: 700;
+}
+input[type="text"],
+[type="number"] {
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 16px;
+}
+#branch {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+#year {
+  width: 125px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.branchoption {
+  padding: 30px;
+}
+span {
+  font-size: 16px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: red;
+}
+#submit {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 22px;
+  color: #f5f5f5;
+  font-family: cursive;
+  font-weight: 600;
+  background-color: rgb(98, 98, 230);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  border-color: rgb(98, 98, 230);
+  cursor: pointer;
+}
+#submit:hover {
+  background-color: rgb(139, 139, 244);
+  color: #f5f5f5;
+}
+#submit:active {
+  background-color: darkblue;
+  color: #f5f5f5;
+}
+
+#display {
+  width: 50%;
+  margin: 50px auto;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+th {
+  font-size: 22px;
+  color: darkred;
+}
+td {
+  font-size: 18px;
+}
